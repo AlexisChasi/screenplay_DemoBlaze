@@ -14,3 +14,11 @@ Asegúrate de tener las siguientes herramientas y versiones instaladas en tu má
 git clone https://github.com/AlexisChasi/screenplay_DemoBlaze.git
 
 Descargar el cromedriver y colocarlo en la ruta especificada, adecuada para la arquitectura del ordenador (en este caso, 64 bits).
+
+![image](https://github.com/user-attachments/assets/37a6383f-7882-4b8d-85f0-68541806fd80)
+
+- Descargar desde: Chrome Driver https://googlechromelabs.github.io/chrome-for-testing/
+
+  ![image](https://github.com/user-attachments/assets/e1dca051-b891-40b2-b661-ca11889579bc)
+
+
