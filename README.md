@@ -11,5 +11,6 @@ Asegúrate de tener las siguientes herramientas y versiones instaladas en tu má
 - Comandos de instalación
 # Clonar el repositorio:
 
-git clone https://github.com/AlexisChasi/NTTDATA.git
+git clone https://github.com/AlexisChasi/screenplay_DemoBlaze.git
+
 Descargar el cromedriver y colocarlo en la ruta especificada, adecuada para la arquitectura del ordenador (en este caso, 64 bits).
