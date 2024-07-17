@@ -22,3 +22,7 @@ Descargar el cromedriver y colocarlo en la ruta especificada, adecuada para la a
   ![image](https://github.com/user-attachments/assets/e1dca051-b891-40b2-b661-ca11889579bc)
 
 
+# Compilar el proyecto:
+
+- Una vez clonado el repositorio, ejecutar mvn install -DskipTests para descargar todas las dependencias del POM.
+- O hacer clic derecho en MAVEN y seleccionar "Reload all maven projects".
