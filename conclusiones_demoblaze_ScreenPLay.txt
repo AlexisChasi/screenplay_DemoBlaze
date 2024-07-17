@@ -1,0 +1,30 @@
+Estructura de Carpetas y Archivos
+Organiza tu proyecto de manera que mantenga la separación de responsabilidades y facilite la escalabilidad y mantenibilidad:
+
+actors: Define los actores que representan los roles de usuario en tu aplicación.
+tasks: Define las tareas que un actor puede realizar, encapsulando la lógica de negocio.
+questions: Define preguntas que permiten verificar el estado de la aplicación después de realizar acciones.
+userinterfaces: Define las interfaces de usuario (páginas web) con localizadores y métodos para interactuar con elementos.
+Uso de Screenplay
+En lugar de definir los pasos de los escenarios de Cucumber directamente en las definiciones de pasos, los encapsulas en tareas y preguntas usando el patrón Screenplay. Esto mejora la claridad y la separación de las acciones del usuario y las verificaciones.
+
+Configuración del Entorno
+Asegúrate de que la configuración inicial del WebDriver y otras configuraciones necesarias se manejen de manera centralizada y modular para todos los actores y tareas.
+
+Conclusiones y Recomendaciones
+Esperas Explícitas: El uso de WebDriverWait y ExpectedConditions garantiza que las interacciones con la aplicación sean robustas, manejen tiempos de carga y eventos asíncronos de manera efectiva.
+
+Documentación y Comentarios: Aunque el código es claro gracias al patrón Screenplay, es beneficioso añadir comentarios en áreas complejas para explicar la lógica de negocio específica y las decisiones de diseño. Esto facilita la comprensión y la colaboración entre desarrolladores.
+
+Pruebas y Validaciones: La implementación con Screenplay permite una clara separación de las acciones del usuario y las verificaciones, lo cual mejora la claridad y mantenibilidad del código. Es esencial expandir las verificaciones para cubrir todos los aspectos del flujo de compra, como la cantidad de productos en el carrito y los detalles del pedido.
+
+Reportes y Evidencias: Serenity BDD genera reportes automáticos que incluyen capturas de pantalla en cada paso importante del escenario. Asegúrate de revisar estos reportes para identificar problemas y facilitar la solución de errores durante la ejecución de las pruebas.
+
+Hallazgos y Áreas de Mejora
+Dependencia Directa con WebDriver: Algunas clases pueden depender directamente de WebDriver, lo cual puede limitar la reutilización del código en diferentes configuraciones de prueba. Considera utilizar patrones de diseño como la inyección de dependencias para mejorar la flexibilidad y el mantenimiento del código.
+
+Refactorización de la Lógica de Negocio: Aunque funcional, revisa la estructura de las tareas (tasks) para asegurarte de que la lógica de negocio esté separada adecuadamente de las interacciones con la interfaz de usuario. Esto simplifica el mantenimiento y facilita la modificación de los flujos de prueba.
+
+Gestión Mejorada de Datos: Utiliza DataTables de Cucumber para manejar datos dinámicos de manera más efectiva. Implementa validaciones adicionales para asegurar la consistencia de los datos y manejar excepciones de manera más robusta.
+
+Mejora en el Manejo de Errores: Considera implementar un manejo de errores más específico y detallado, capturando excepciones específicas y proporcionando mensajes de error significativos. Esto mejora la depuración y la comprensión de problemas durante la ejecución de las pruebas.
