@@ -1,4 +1,4 @@
-# NTTDATA EJERCICIO AUTOMATIZACIÓN CON PATRÓN SCREENPLAY
+#  AUTOMATIZACIÓN CON PATRÓN SCREENPLAY
 Este proyecto contiene automatización de pruebas utilizando Selenium WebDriver y Cucumber en NTT DATA, implementando el patrón Screenplay.
 
 # Prerrequisitos
